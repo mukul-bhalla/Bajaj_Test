@@ -47,7 +47,7 @@ app.post('/bfhl', upload.single('file'), (req, res) => {
 
     if (fileB64) {
         try {
-            console.log("first")
+
 
             fileSizeKb = fileB64.size / 1024;
 
